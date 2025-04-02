@@ -1,0 +1,163 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Styling for team logo image */
+.team-logo {
+    width: 150px; /* Adjust the size as needed */
+    margin-top: 10px;
+}
+
+/* Menu button styling */
+header nav {
+    margin-top: 10px;
+}
+
+header nav button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+header nav button:hover {
+    background: #0056b3;
+}
+
+/* Flex container for team bios and vision sections */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Card styling for individual team bios */
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+/* Initially hide bio details */
+.bio {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Button styling */
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Avatar Styling */
+.avatar {
+    width: 120px; /* Slightly reduced for balance */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+/* Bio Section */
+.bio {
+    display: none;
+    font-size: 14px;
+    color: #555;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+/* Moodboard Section */
+.moodboard {
+    margin-top: 20px;
+    padding: 15px;
+    background: linear-gradient(to right, #eef2f3, #d9e3f0);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Moodboard Title */
+.moodboard h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Moodboard Grid */
+.moodboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Moodboard Items */
+.moodboard-grid img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.moodboard-grid img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Moodboard Item Links */
+.moodboard-grid a {
+    display: block;
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.moodboard-grid a:hover {
+    opacity: 0.8;
+}
