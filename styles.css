@@ -88,3 +88,79 @@ button {
 button:hover {
     background: #0056b3;
 }
+<<<<<<< HEAD
+=======
+
+/* Avatar Styling */
+.avatar {
+    width: 120px; /* Slightly reduced for balance */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+/* Bio Section */
+.bio {
+    display: none;
+    font-size: 14px;
+    color: #555;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+/* Moodboard Section */
+.moodboard {
+    margin-top: 20px;
+    padding: 15px;
+    background: linear-gradient(to right, #eef2f3, #d9e3f0);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Moodboard Title */
+.moodboard h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Moodboard Grid */
+.moodboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Moodboard Items */
+.moodboard-grid img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.moodboard-grid img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Moodboard Item Links */
+.moodboard-grid a {
+    display: block;
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.moodboard-grid a:hover {
+    opacity: 0.8;
+}
+>>>>>>> 11747d12808d3e9e7b7a6bb21c4a74cb24798079
