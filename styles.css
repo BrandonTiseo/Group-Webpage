@@ -1,9 +1,12 @@
-/* General page styling */
+
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    background-image: url('img/background_image.png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the full screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    margin: 0; /* Removes default margins */
 }
 
 /* Header section styling */
